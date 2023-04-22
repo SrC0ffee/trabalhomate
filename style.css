@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#000050, #CEBA08);
+    height: 98vh
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.titulo {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #030927;
+    height: 6vh;
+}
+
+.cabecalho {
+    list-style: none;
+    display: flex;
+}
+
+.cabecalho li {
+    letter-spacing: 3px;
+    margin-left: 30px;
+    color: #FFFFFF ;
+}
+
+.meio {
+    display: flex;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    margin-top: 250px;
+    margin-bottom: 300px;
+}
+
+.meio img {
+    height: 250px;;
+}
+
+.conteudo {
+    width: 25%;
+    margin-right: 250px;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    font-size: 20px;
+}
+
+.estudante {
+    background: #030927;
+    color: #FFFFFF
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 35px 0;
+    font-size: 30px;
+}
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.baixo{
+    height: 5vh;
+    background: #030927;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
